@@ -2,7 +2,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-
+  /* overflow: scroll; */
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
