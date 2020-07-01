@@ -7,7 +7,7 @@ import routes from '../../constants/routes.json';
 import TopWatchedCard from '../../components/StockTwits/TopWatched';
 
 export default class Dashboard extends React.Component {
-  constructor(props: Readonly<{}>){
+  constructor(props: Readonly<unknown>){
     super(props);
 
     this.state = {topWatched: []};
